@@ -1,5 +1,10 @@
 # Calculation Mod
  Minecraft mod that adds commands for calculating different things. Fabric 1.20.1
+# Dependencies:
+		fabric loader: >=0.15.6
+		minecraft: ~1.20.1
+		java: >=17
+		fabric api: *
 # Commands:
 ```
 /add a b
