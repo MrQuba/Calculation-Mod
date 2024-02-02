@@ -53,4 +53,4 @@ calculates volume of cylinder
 ```
 calculates volume of cuboid
 # How to install?
-Just put .jar file inside your mods folder
+Just put .jar file (from releases) inside your mods folder
