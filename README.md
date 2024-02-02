@@ -11,7 +11,7 @@
 ```
 adds two numbers together
 ```
-/subtract
+/subtract a b
 ```
 subtracts one number from other (same can be done with:
 ```
