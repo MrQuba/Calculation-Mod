@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "calculator-mod",
+	"version": "${version}",
+	"name": "Calculator Mod",
+	"description": "Fabric mod that allows you to perform simple calculations in game using commands",
+	"authors": [
+		"MrQuba!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/calculator-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mrquba.calculatormod.CalculatorMod"
+		],
+		"client": [
+			"net.mrquba.calculatormod.CalculatorModClient"
+		],
+		"fabric-datagen": [
+			"net.mrquba.calculatormod.CalculatorModDataGenerator"
+		]
+	},
+	"mixins": [
+		"calculator-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
